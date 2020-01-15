@@ -1,7 +1,7 @@
 {
-  "name": "work12",
+  "name": "work13",
   "version": "1.0.0",
-  "description": "work12",
+  "description": "work13",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
@@ -33,10 +33,11 @@
     "webpack-md5-hash": "0.0.6"
   },
   "dependencies": {
-    "express": "^4.17.1",
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.1.4",
+    "express": "^4.17.1",
     "file-loader": "^4.2.0",
-    "image-webpack-loader": "^6.0.0"
+    "image-webpack-loader": "^6.0.0",
+    "mongoose": "^5.8.7"
   }
 }
