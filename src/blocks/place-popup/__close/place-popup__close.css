@@ -1,0 +1,8 @@
+.place-popup__close {
+    width: 41px;
+    position: absolute;
+    top: -45px;
+    right: -45px;
+    cursor: pointer;
+  }
+  
