@@ -12,7 +12,6 @@ HTML, CSS, JS, WebPack, MongoDb
 
 __Запуск__
 npm run build - для прод версии
-npm run dev - версия для разработки, с лайв апдейт и локальным сервером
 npm run start - запускает сервер
 
 __Установка__

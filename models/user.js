@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+const validateTemplate = /^(https|http)?:\/\/(www.)?[^-_.\s](\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3})?(:\d+)?(.+[#a-zA-Z/:0-9]{1,})?\.(.+[#a-zA-Z/:0-9]{1,})?$/i;
+
 const userSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -16,6 +18,7 @@ const userSchema = new mongoose.Schema({
   avatar: {
     type: String,
     required: true,
+    match: validateTemplate
   },
 });
 
