@@ -1,18 +1,17 @@
-# work12
+# work13
 _version 1.0.0_
-###Express and API###
+###Express and noSql Db###
 __Что это__ 
-Сервер на express
+Сервер на express с БД
 
 __Цель проекта__ 
-Проект был создан для тренировки работы с Express
+Проект был создан для тренировки работы с Express и БД
 
 __Используемые технологии__ 
-HTML, CSS, JS, WebPack
+HTML, CSS, JS, WebPack, MongoDb
 
 __Запуск__
 npm run build - для прод версии
-npm run dev - версия для разработки, с лайв апдейт и локальным сервером
 npm run start - запускает сервер
 
 __Установка__
